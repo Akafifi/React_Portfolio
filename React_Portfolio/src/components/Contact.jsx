@@ -1,4 +1,9 @@
 const Contact = () => {
+    return (
+        <>
+        Contact
+        </>
+    )
 
 }
 

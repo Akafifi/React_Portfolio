@@ -1,4 +1,9 @@
 const Resume = () => {
+    return (
+        <>
+        Resume
+        </>
+    )
 
 }
 
