@@ -1,10 +1,10 @@
-const AboutMe = () => {
+const About = () => {
     return (
         <>
-        AboutMe
+        About
         </>
     )
 
 }
 
-export default AboutMe
+export default About

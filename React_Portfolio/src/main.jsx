@@ -14,24 +14,25 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />
+    element: <App />,
+    children: [
+        {
+    path: '/',
+    element: <About />
   },
-  // {
-  //   path: '/',
-  //   element: <About />
-  // },
-  // {
-  //   path: '/',
-  //   element: <Contact />
-  // },
-  // {
-  //   path: '/',
-  //   element: <Resume />
-  // }
+  {
+    path: '/',
+    element: <Contact />
+  },
+  {
+    path: '/',
+    element: <Resume />
+  }
+    ]
+  },
+
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <RouterProvider router={router}>
-  </React.StrictMode>,
+    <RouterProvider router={router}/>
 )
