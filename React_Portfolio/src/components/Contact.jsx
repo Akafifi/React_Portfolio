@@ -1,8 +1,16 @@
+import { Link } from 'react-router-dom'
+
 const Contact = () => {
     return (
-        <>
-        Contact
-        </>
+        <div>
+
+            <Link to="https://github.com/Akafifi" href="#" className='text-light'>itsmeafifi@gmail.com</Link>
+
+        </div>
+
+
+
+
     )
 
 }
